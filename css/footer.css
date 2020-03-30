@@ -1,0 +1,40 @@
+.footer{
+  border-top: 1px solid rgb(240,240,240);
+  height: 240px;
+  position: relative;
+}
+/*.wrap{
+  width: 3vw;
+  overflow: hidden;
+}*/
+.allA{/*垂直居中显示*/
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+
+  /*overflow: hidden;*/
+  /*border: 2px solid;*/
+}
+.allA a{
+  width: 45px;
+  height: 45px;
+  float: left;
+  margin: 0 10px;
+  position: relative;
+  overflow: hidden;
+}
+.allA img{
+  width: 45px;
+  height: 45px;
+  position: absolute;
+}
+
+
+.footer p{
+  text-align: center;
+  clear: both;
+  font-size: 14px;
+  line-height: 240px;
+  margin-top: 60px;
+}

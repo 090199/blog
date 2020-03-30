@@ -1,0 +1,37 @@
+.header{
+  background: url("https://d1icd6shlvmxi6.cloudfront.net/gsc/NNDRCL/83/5a/ef/835aefb24a2b4c1ea8fb35060c167256/images/sample_post/u74_state0.jpg?token=70e4668bd81a341d4eda606146214f10b115632cc6c0803722d271fd085bbe91") no-repeat center;
+}
+.panel{
+  margin-bottom: 100px;
+}
+.panel-heading{
+  font-size: 36px;
+}
+.panel-body{
+  font-size: 24px;
+  text-indent: 2em;
+  line-height: 1.5em;
+  font-family: "宋体";
+  line-height: 2em;
+}
+.panel-body .summer{
+  font-size: 18px;
+}
+dd{
+  line-height: 2em;
+}
+@media only screen and (max-width: 768px){
+  .panel-heading{
+    font-size: 28px;
+  }
+  .panel-body{
+    font-size: 16px;
+  }
+  .panel{
+    margin-bottom: 50px;
+  }
+  .summer{
+    overflow: hidden;
+  }
+
+}

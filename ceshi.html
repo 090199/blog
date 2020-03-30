@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>测试！！！！！</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+  <link rel="stylesheet" type="text/css" href="css/header.css"/>
+  <link rel="stylesheet" type="text/css" href="css/footer.css"/>
+  <link rel="stylesheet" type="text/css" href="css/contact.css"/>
+</head>
+<body>
+
+
+<div class="header">
+  <!--导航部分-->
+  <div class="navbar navbar-default">
+    <div class="navbar-header">
+      <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynav">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="Home.html" class="navbar-brand">Muzi Li BLOG</a>
+    </div>
+    <div class="collapse navbar-collapse" id="mynav">
+      <ul class="nav navbar-nav pull-right">
+        <li><a href="Home.html">HOME</a></li>
+        <li><a href="About.html">ABOUT</a></li>
+        <li><a href="Diary.html">DIARY</a></li>
+        <li><a href="Contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="header-text">
+    <h1>Contact Me</h1>
+    <span class="divider"></span>
+    <p>Have questions? I have answers (maybe)</p>
+  </div>
+</div>
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-2"></div>
+    <!--<h1 class="text-center text-danger">Form 示例</h1>-->
+    <div class="col-md-8">
+      <p>
+        This blog only serves as a record of personal views on learning. Inevitably there are some errors,welcome to point out mistakes.
+        Please fill out the form below to send me a message.Welcome to study and communicate with each other.
+      </p>
+      <form role="form" class="form-horizontal" action="javascript:alert('验证成功,可以提交.');" method="post">
+        <div class="form-group">
+          <input class="form-control" name="name" type="text" id="name" placeholder="Name" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="email" class="form-control" id="email" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <input type="text" name="number" class="form-control" id="number" placeholder="Phone Number">
+        </div>
+        <div class="form-group">
+          <textarea id="message" class="form-control" rows="3" name="message" placeholder="message"></textarea>
+        </div>
+        <div class="form-group">
+          <button class="btn btn-default">SEND</button>
+        </div>
+      </form>
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+
+
+</div>
+<div class="footer">
+  <div class="allA">
+    <a href=""><img src="img/twitter.png"></a>
+    <a href=""><img src="img/facebook.png"></a>
+    <a href=""><img src="img/github.png"></a>
+  </div>
+  <p>Copyright © All copyright belongs to Clean'Blog</p>
+
+</div>
+
+
+
+
+<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.validate.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/xx.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+  MyValidator.init();
+</script>
+<script src="js/myjs/footer.js"></script>
+</body>
+</html>

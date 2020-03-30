@@ -1,0 +1,58 @@
+.header{
+  background: url("https://d1icd6shlvmxi6.cloudfront.net/gsc/NNDRCL/83/5a/ef/835aefb24a2b4c1ea8fb35060c167256/images/contact/u121_state0.jpg?token=3f6f648f28a56e15bf5875eb7d915f2f1f91b45a6a7549226de4d713cfe8a616") no-repeat center;
+}
+.row p{
+  width: 100%;
+  font-size: 22px;
+  line-height: 2em;
+  margin-bottom: 30px;
+}
+
+.form-control {
+  height: 80px;
+  font-size: 22px;
+  border: 1px solid #E6E6E6;
+  webkit-box-shadow: none;
+  box-shadow: none;
+}
+.form-control:focus,
+.form-control[id="message"]:focus {
+  border-color: #E6E6E6;
+  webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+
+.form-control[id="message"]{
+  height: 140px;
+  resize: none;
+  padding-top: 20px;
+  margin-bottom: 40px;
+  border: 1px solid #E6E6E6;
+  webkit-box-shadow: none;
+  box-shadow: none;
+}
+.form-group{
+  margin-bottom: 30px;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder{
+  /* placeholder字体大小  */
+  font-size: 22px;
+  color: #BABABA;
+}
+button{
+  width: 90px;
+  height: 50px;
+  font-size: 15px;
+}
+.btn:hover{
+  background-color: rgb(0,131,161);
+  border: none;
+  color: #fff;
+}
+.btn-default{
+  background-color: #f5f5f5f5;
+}
+

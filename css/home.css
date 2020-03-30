@@ -1,0 +1,139 @@
+body{
+  position: relative;
+}
+.header{
+  background: url("https://d1icd6shlvmxi6.cloudfront.net/gsc/NNDRCL/83/5a/ef/835aefb24a2b4c1ea8fb35060c167256/images/home/u0_state0.jpg?token=0fb50881563958272d7cb14ab484501cfc30ed6fa75517f0bdc53946eeaf144a") no-repeat center;
+}
+.b1 img{
+  float: left;
+  width: 54px;
+  height: 54px;
+  margin-right: 20px;
+}
+.media{
+  height: 250px;
+  position: relative;
+  box-shadow: 3px 3px 8px rgba(0,0,0,.2);
+  border-radius: 10px;
+}
+#md1,#md2,#md3,#md4{
+  padding-top: 100px;
+}
+#md4{
+  margin-bottom: 100px;
+}
+.media{
+  /*min-width: 680px;*/
+}
+.media-body{
+  padding-top: 20px ;
+}
+.media .media-heading{
+  color: #333333;
+  margin-bottom: 30px;
+}
+.media .media-heading:hover,
+.media-body>a>p:hover{
+  color: #337ab7;
+}
+.media .media-body>a:hover{
+  text-decoration: none;
+}
+.media p{
+  font-size: 24px;
+  color: #666666;
+  /*设置多余内容 省略号显示*/
+  /*overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;*/
+}
+.media .time{
+  font-size: 18px;
+  color: #999999;
+  position: absolute;
+  bottom: 10px;
+}
+.media .media-left{
+  padding-right: 20px;
+}
+.list-group{
+  position: fixed;
+  top:100px;
+  display: none;
+}
+@media only screen and(max-width: 682px) {
+  .media-heading h1{
+    margin-bottom: 15px!important;
+  }
+
+}
+@media only screen and (min-width: 1200px){
+  .media-heading h1{
+    font-size: 28px!important;
+  }
+  .media p{
+    font-size: 24px!important;
+  }
+  .media .time{
+    font-size: 18px!important;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .media-heading h1{
+    font-size: 24px!important;
+  }
+  .media p{
+    font-size: 18px;
+  }
+  .media .time{
+    font-size: 16px!important;
+    margin-bottom: 0px!important;
+  }
+}
+@media only screen and (max-width: 992px){
+  .list-group{
+    display: none!important;
+  }
+
+
+}
+@media only screen and (max-width: 768px) {
+  .b1 h3{
+    font-size: 20px;
+  }
+  .b1 p{
+    font-size: 16px;
+  }
+  .media{
+    height: 200px!important;
+  }
+  #md1,#md2,#md3,#md4{
+    padding-top: 50px;
+  }
+  #md1 img,#md2 img,#md3 img,#md4 img{
+    /*width: 250px!important;
+    height: 200px!important;*/
+  }
+  .media-heading{
+    font-size: 28px;
+  }
+  .media p{
+    font-size: 18px;
+  }
+  .media .time{
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 670px){
+  .media-heading{
+    font-size: 24px;
+    margin-bottom: 5px!important;
+  }
+  .media p{
+    font-size: 14px;
+  }
+  .media .time{
+    font-size: 12px;
+    margin-bottom: 0px!important;
+  }
+}

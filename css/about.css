@@ -1,0 +1,24 @@
+
+.header{
+  background: url("https://d1icd6shlvmxi6.cloudfront.net/gsc/NNDRCL/83/5a/ef/835aefb24a2b4c1ea8fb35060c167256/images/about/u48_state0.jpg?token=7916be6b4fe4e3109940a65e34210a1c4be47642f2eec94bf4f581f4549b212c") no-repeat center;
+}
+
+.col-md-8 p{
+  font-size: 22px;
+  line-height: 2em;
+  margin-bottom: 30px;
+}
+.box2,.box1{
+  padding: 30px 0;
+  border-top: 1px solid rgb(240,240,240);
+}
+.box2 li{
+  list-style: none;
+  font-size: 20px;
+  line-height: 2em;
+}
+.box2 img{
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+}
